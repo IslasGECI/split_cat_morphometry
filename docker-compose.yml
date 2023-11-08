@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: islasgeci/catphometry:latest
+    image: islasgeci/split_cat_morphometry:latest
     command: bash
     volumes:
       - $PWD:/workdir
