@@ -1,6 +1,6 @@
 describe("Test all is ready", {
-  it("Return one", {
-    expected <- 1
+  it("Read tests data", {
+    raw_data <- readr::read_csv("/workdir/tests/data/morfometria_gatos_guadalupe.csv")
     obtained <- return_one()
     expect_equal(expected, obtained)
   })
