@@ -5,6 +5,10 @@ describe("Test all is ready", {
     obtained <- select_id_and_coodinates(raw_data)
     obtained_columns <- names(obtained)
     expect_equal(obtained_columns, expected_columns)
+
+    obtained_n_rows <- nrow(obtained)
+    expected_n_rows <- 8
+    expect_equal(obtained_n_rows, expected_n_rows)
   })
   it("Only trapping: date and morphometry", {
     not_expected_columns <- c("Coordenada_Este", "Coordenada_Norte", "Zona")
