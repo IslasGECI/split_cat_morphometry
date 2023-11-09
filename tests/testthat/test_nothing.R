@@ -4,7 +4,7 @@ describe("Test all is ready", {
     expected_columns <- c("ID_de_trampa", "Coordenada_Este", "Coordenada_Norte")
     obtained <- select_id_and_coodinates(raw_data)
     obtained_columns <- names(obtained)
-    expect_true(obtained_columns, expected_columns)
+    expect_equal(obtained_columns, expected_columns)
   })
 })
 
