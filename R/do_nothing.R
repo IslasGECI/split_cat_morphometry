@@ -13,5 +13,5 @@ select_date_and_morphometry <- function(raw_data) {
 }
 
 extract_zone <- function(trap_id) {
-  return(trap_id[4:5])
+  as.double(stringr::str_sub(trap_id, 5, 5))
 }
