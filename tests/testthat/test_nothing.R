@@ -22,6 +22,12 @@ describe("Split zone from ID", {
     obtained_zone <- extract_zone(trap_id)
     expect_equal(obtained_zone, expected_zone)
   })
+  it("For a vector ID", {
+    trap_id <- c("TC-03-154-LM", "TC-08-199-XX")
+    expected_zone <- c(3, 8)
+    obtained_zone <- extract_zone(trap_id)
+    expect_equal(obtained_zone, expected_zone)
+  })
 })
 
 describe("Get version of the module", {
