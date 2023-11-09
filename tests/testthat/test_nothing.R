@@ -18,7 +18,9 @@ describe("Test all is ready", {
 describe("Split zone from ID", {
   it("For one ID", {
     trap_id <- "TC-03-154-LM"
-    extract_zone(trap_id)
+    expected_zone <- 3
+    obtained_zone <- extract_zone(trap_id)
+    expect_equal(obtained_zone, expected_zone)
   })
 })
 
