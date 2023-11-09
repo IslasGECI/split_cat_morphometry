@@ -1,11 +1,10 @@
 Fecha,ID_de_trampa,Zona,Coordenada_Este,Coordenada_Norte,Responsable_de_captura,Otros_responsables,Longitud_total,Longitud_de_cola,Altura,Sexo,Etapa_de_vida,Patron,Gris,Negro,Pardo,Amarillo,Naranja,Blanco,Peso,Condicion_corporal,Estado_de_salud,Estado_reproductivo,Contenido_estomacal_notas,Contenido_estomacal_plumas,Contenido_estomacal_pelos,Contenido_estomacal_insectos,Contenido_estomacal_plantas,Contenido_estomacal_desperdicios,Contenido_estomacal_inorganico,Observaciones
 09/Oct/2018,TC-01-PS1-AG,1,NA,NA,Jose Luis Bolivar,NA,70,26,25,H,juvenil,atigrado,1,0,0,0,0,0,2.3,2,sano,NA,NA,NA,NA,NA,NA,NA,NA,NA
-10/Ene/2023,NA,3,375171,3209922,David Cosio,Luis Martinez/Salvador figueroa,75,31,25,H,adulto,solido,0,1,0,0,0,0,3.7,4,sano,preñada,NA,NA,NA,NA,NA,NA,NA,Gato acorralado por la unidad K9. Llevaba un petrel en la boca.
 10/Ago/2020,TC-04-120-MV,4,378461,3211655,Salvador Figueroa,NA,NA,NA,NA,NA,juvenil,solido,0,1,0,0,0,0,NA,NA,muerto,NA,NA,NA,NA,NA,NA,NA,NA,NA
-22/Mar/2023,NA,7,NA,NA,Michel Cortez,NA,NA,NA,NA,NA,adulto,atigrado,1,1,0,0,0,1,NA,NA,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,Se encontro cepo en el camino hacia playa norte
 24/Oct/2023,TC-03-106-KR,3,377717,3206615,Ever Sanchez,NA,NA,NA,NA,NA,adulto,solido,0,1,0,0,0,0,NA,NA,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,En descomposicion
 24/Oct/2023,TC-03-154-LM,3,376818,3208120,Salvador Figueroa,NA,NA,NA,NA,NA,juvenil,solido,0,1,0,0,0,0,NA,NA,muerto,NA,NA,NA,NA,NA,NA,NA,NA,En descomposicion
 28/Oct/2023,TC-03-194-MC,3,380157,3206016,Ever Sanchez,NA,NA,NA,NA,NA,adulto,atigrado,1,1,0,0,0,1,NA,NA,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,En descomposicion
 26/Oct/2023,TC-03-195-LM,3,376665,3205564,Cristobal Sanchez,NA,NA,NA,NA,NA,juvenil,solido,0,1,0,0,0,0,NA,NA,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
 28/Oct/2023,TC-07-138-FJR,7,371748,3223883,Ever Sanchez,David Cosio,73,28,30,H,juvenil,atigrado,1,1,0,0,0,1,2,4,sano,reproductivo,NA,NA,NA,NA,NA,NA,NA,NA
 26/Oct/2023,TP-02-096-LM,2,375598,3203799,Ever Sanchez,NA,NA,NA,NA,H,adulto,atigrado,1,1,0,0,0,1,NA,NA,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,En descomposicion
+27/Oct/2023,TP-02-096-LM,2,375598,3203799,Ever Sanchez,NA,NA,NA,NA,H,adulto,atigrado,1,1,0,0,0,1,NA,NA,muerto,reproductivo,NA,NA,NA,NA,NA,NA,NA,En descomposicion
