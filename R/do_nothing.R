@@ -11,3 +11,7 @@ select_date_and_morphometry <- function(raw_data) {
   raw_data |>
     dplyr::select(-c("Zona", "Coordenada_Este", "Coordenada_Norte"))
 }
+
+extract_zone <- function(trap_id) {
+  return(trap_id[4:5])
+}
