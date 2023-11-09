@@ -1,10 +1,18 @@
 describe("Test all is ready", {
-  it("Read tests data", {
+  it("Only trapping: traps coordinates", {
     raw_data <- readr::read_csv("/workdir/tests/data/morfometria_gatos_guadalupe.csv", show_col_types = FALSE)
     expected_columns <- c("ID_de_trampa", "Coordenada_Este", "Coordenada_Norte")
     obtained <- select_id_and_coodinates(raw_data)
     obtained_columns <- names(obtained)
     expect_equal(obtained_columns, expected_columns)
+  })
+  it("Only trapping: date and morphometry", {
+    raw_data <- readr::read_csv("/workdir/tests/data/morfometria_gatos_guadalupe.csv", show_col_types = FALSE)
+    not_expected_columns <- c("Coordenada_Este", "Coordenada_Norte", "Zona")
+    obtained <- select_date_and_morphometry(raw_data)
+    obtained_columns <- names(obtained)
+    are_not_there <- !obtained_columns %in% not_expected_columns
+    expect_true(all(are_not_there))
   })
 })
 
