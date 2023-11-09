@@ -1,8 +1,10 @@
 describe("Test all is ready", {
   it("Read tests data", {
     raw_data <- readr::read_csv("/workdir/tests/data/morfometria_gatos_guadalupe.csv", show_col_types = FALSE)
-    obtained <- return_one()
-    expect_true(TRUE)
+    expected_columns <- c("ID_de_trampa", "Coordenada_Este", "Coordenada_Norte")
+    obtained <- select_id_and_coodinates(raw_data)
+    obtained_columns <- names(obtained)
+    expect_true(obtained_columns, expected_columns)
   })
 })
 
