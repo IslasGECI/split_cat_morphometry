@@ -15,6 +15,13 @@ describe("Test all is ready", {
   })
 })
 
+describe("Split zone from ID", {
+  it("For one ID", {
+    trap_id <- "TC-03-154-LM"
+    extract_zone(trap_id)
+  })
+})
+
 describe("Get version of the module", {
   it("The version is 0.1.0", {
     expected_version <- c("0.1.0")
